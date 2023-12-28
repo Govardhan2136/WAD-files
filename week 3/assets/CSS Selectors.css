@@ -16,6 +16,7 @@ h2 {
     background-color: lightgray;
 }
 
+.mainelement,
 .element1,
 .element2,
 .element3{
@@ -40,14 +41,14 @@ section > p {
     font-style: oblique;
 }
 
-input[type="email"] {
-border: 1px solid black;
-}
-
 a:hover {
-color: red;
+    color: red;
 }
 
 p::first-line {
-text-transform: uppercase;
+    text-transform: uppercase;
+}
+
+input[type="email"] {
+    border: 2px solid black;
 }
