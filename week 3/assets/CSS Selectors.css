@@ -1,0 +1,48 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+h2 {
+    color: blue;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+#special-paragraph {
+    background-color: lightgray;
+}
+
+.element1,
+.element2,
+.element3{
+    color: blue;
+}
+
+article p {
+    border: 2px solid green;
+}
+
+section > p {
+    background-color: yellow;
+}
+
+.sibling-heading + p {
+    font-style: italic;
+    color: red;
+}
+
+input[type="email"] {
+border: 1px solid black;
+}
+
+a:hover {
+color: red;
+}
+
+p::first-line {
+text-transform: uppercase;
+}
