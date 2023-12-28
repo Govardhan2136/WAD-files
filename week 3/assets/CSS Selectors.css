@@ -35,6 +35,11 @@ section > p {
     color: red;
 }
 
+.sibling-example ~ p {
+    color: darkolivegreen;
+    font-style: oblique;
+}
+
 input[type="email"] {
 border: 1px solid black;
 }
